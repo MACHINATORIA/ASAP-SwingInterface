@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette>
+    <category
+        id="asapApplication"
+        name="ASAP_Application"
+        description="ASAP Application"
+        open="false">
+        <component
+            class="asap.ui.swing.component.composite.appFrame.AppSimpleFrame"
+            name="AppFrame" />
+        <component
+            class="asap.ui.swing.component.composite.appFrame.AppHeaderPanel"
+            name="AppHeader" />
+    </category>
+    <category
+        id="asapCaptionHint"
+        name="ASAP_CaptionHint"
+        description="ASAP CaptionHint"
+        open="false">
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintPanel"
+            name="Panel" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintList"
+            name="List" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintTextField"
+            name="TextField" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintTextPane"
+            name="TextPane" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintTextPaneScroll"
+            name="TextScrollPane" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintTextArea"
+            name="TextArea" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintReviewText"
+            name="TextReview" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintReviewPassword"
+            name="PasswordReview" />
+        <component
+            class="asap.ui.swing.component.composite.captionHint.CaptionHintSpinner"
+            name="Spinner" />
+    </category>
+    <category
+        id="asapWrap"
+        name="ASAP_Wrap"
+        description="ASAP Wrap"
+        open="false">
+        <component
+            class="asap.ui.swing.component.composite.decorable.ELabelPanel"
+            name="Label" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.EListPanel"
+            name="List" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.EButtonPanel"
+            name="Button" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.ETextFieldPanel"
+            name="TextField" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.ETextPanePanel"
+            name="TextPane" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.ETextPaneScrollPanel"
+            name="TextScrollPane" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.ETextAreaPanel"
+            name="TextArea" />
+        <component
+            class="asap.ui.swing.component.composite.decorable.ETextAreaScrollPanel"
+            name="TextScrollArea" />
+    </category>
+    <category
+        id="asapBrick"
+        name="ASAP_Brick"
+        description="ASAP Brick"
+        open="false">
+        <component
+            class="asap.ui.swing.component.EPanel"
+            name="Panel" />
+        <component
+            class="asap.ui.swing.component.ELabel"
+            name="Label" />
+        <component
+            class="asap.ui.swing.component.EButton"
+            name="Button" />
+        <component
+            class="asap.ui.swing.component.ECheckBox"
+            name="CheckBox" />
+        <component
+            class="asap.ui.swing.component.EList"
+            name="List" />
+        <component
+            class="asap.ui.swing.component.ETextField"
+            name="TextField" />
+        <component
+            class="asap.ui.swing.component.EPasswordField"
+            name="PasswordField" />
+        <component
+            class="asap.ui.swing.component.ETextPane"
+            name="TextPane" />
+        <component
+            class="asap.ui.swing.component.ETextArea"
+            name="TextArea" />
+        <component
+            class="asap.ui.swing.component.ESpinner"
+            name="Spinner" />
+        <component
+            class="asap.ui.swing.component.EScrollPane"
+            name="Scroll" />
+        <component
+            class="asap.ui.swing.component.EFrame"
+            name="Frame" />
+        <component
+            class="asap.ui.swing.component.EPanel"
+            name="Panel" />
+    </category>
+</palette> 

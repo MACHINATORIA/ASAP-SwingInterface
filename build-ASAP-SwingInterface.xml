@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="ASAP-Primitive"
+         default="deploy-current-release-version"
+         basedir="./">
+	<import file="${basedir}/../../../_toolset/ant-templates.xml" />
+
+	<!-- ...................................................................... -->
+	<target name="build-selected-version">
+		<deploySingleJar artifactName="ASAP Swing-Interface"
+		                 artifactDescription="Componentes gráficos Swing"
+		                 artifactPrefix="asapSwingInterface"
+		                 javaPackages="asap/ui/swing/component/**"
+		                 artifactDeployDir="${product-component-dir}/asap"
+		                 artifactHistoryDir="${product-component-history-dir}/asap"
+		                 updateHistory="yes">
+			<deploySingleJarJavaClassPath>
+				<recursiveSet dir="${product-component-dir}/asap"
+				              names="asapPrimitive-%lastversion%.jar" />
+			</deploySingleJarJavaClassPath>
+		</deploySingleJar>
+	</target>
+
+	<!-- ...................................................................... -->
+</project>

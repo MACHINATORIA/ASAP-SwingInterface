@@ -111,6 +111,9 @@
             class="asap.ui.swing.component.ESpinner"
             name="Spinner" />
         <component
+            class="asap.ui.swing.component.ECanvas"
+            name="Canvas" />
+        <component
             class="asap.ui.swing.component.EScrollPane"
             name="Scroll" />
         <component
